@@ -22,15 +22,12 @@ export default class PetCard {
     return (
       <div className='PetCard'>
         <h1>{name}</h1>
-        {/* alt text */}
         <img src={picture} alt="Handsome pet picture"/>
         <section className='PetCard__details'>
-          {/* use semantic html tags */}
           <p className='PetCard__details-birth-date'>{birthDate}</p>  
           <p className='PetCard__details-birth-place'>{birthPlace}</p>
           {showVaccinations && this.getPetVaccinations(vaccinations)}
         </section>
-        {/* restructure html according to design */}
         {actions && 
         <section className='PetCard__actions'>
           {actions}

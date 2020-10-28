@@ -37,7 +37,7 @@ export default class PetCard {
   }
 }
 
-function getOwnerCard() {
+function getOwnerView() {
   // Add actions and functions depending on the user
   function onEditDetails() {}
   const cardAction = <Button onClick={onEditDetails}>Edit details</Button>;
@@ -45,14 +45,14 @@ function getOwnerCard() {
   <PetCard actions={cardAction} pet={pet}/>
 }
 
-function getUserCard() {
+function getUserView() {
   function onPetSit() {}
   const cardAction = <Button onClick={onPetSit}>Pet sit</Button>;
 
   <PetCard actions={cardAction} pet={pet}/>
 }
 
-function getAnonUserCard() {
+function getAnonUserView() {
   <PetCard pet={pet}/>
 }
 

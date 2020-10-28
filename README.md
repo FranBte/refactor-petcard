@@ -8,4 +8,4 @@
 * Restructure HTML based on design (move `actions` out of `PetCard__details` `section`)
 * Accessibility: `alt` text and semantic HTML tags over `div`s
 * Restructure `PetCard` to be a generic component - add specific functions for the user views `getOwnerView`, `getUserView` and `getAnonView`
-* Try to rename `classnames` :D
+* Try to rename `classes` :D

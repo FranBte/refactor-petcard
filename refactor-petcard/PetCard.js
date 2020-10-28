@@ -1,4 +1,8 @@
 /** PSUEDO CODE */
+/**
+ * Keep the content generic and then render the component with the relevant properties depending
+ * on the view.
+ */
 
 export default class PetCard {
 
@@ -56,9 +60,3 @@ function getAnonUserView() {
   <PetCard pet={pet}/>
 }
 
-
-
-/**
- * Keep the content generic and then render the component with the relevant properties depending
- * on the view and the animal.
- */

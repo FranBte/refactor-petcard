@@ -6,7 +6,7 @@ export default class PetCard {
     return (
       <ul className='PetCard__vaccination-list'>
       {vaccinations.map((vaccination, index) => (
-        <li key={index}>
+        <li key={`vaccination-${index}`}>
           {vaccination.name} - {vaccination.date}
         </li>
       ))}

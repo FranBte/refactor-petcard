@@ -1,3 +1,5 @@
+/** PSUEDO CODE */
+
 export default class PetCard {
 
   getPetVaccinations(vaccinations) {
@@ -11,7 +13,6 @@ export default class PetCard {
       </ul>)
   }
 
-  
   render() {
     const { pet, actions } = this.props;
     const { name, picture, vaccinations, birthDate, birthPlace, type } = pet;
